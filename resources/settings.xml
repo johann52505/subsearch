@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="General">
+    <setting id="sub_api_key" type="text" label="SubDL API Key" default="" />
+    <setting id="sub_langs" type="text" label="Preferred Languages (e.g. PTBR,EN)" default="PTBR" />
+    <setting id="sub_download_path" type="folder" label="Subtitle Download Folder (leave blank for video folder)" default="" />
+    <setting id="sub_log_level" type="enum" label="Log Level" values="INFO|DEBUG" default="0" />
+  </category>
+</settings>

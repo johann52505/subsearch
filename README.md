@@ -1,0 +1,39 @@
+# Subsearch
+
+Subsearch is a SubDL subtitle search and download add-on for Kodi 18 on Linux. It has been tested with Kodi 18.9 and LibreELEC 9.2 (Linux 4.19.127) on a Raspberry Pi 3. It may also work on older Raspberry Pi models, such as the Raspberry Pi 1 and 2.
+
+## Motivation
+
+With Kodi 18.9 and LibreELEC, older Raspberry Pi models such as the Raspberry Pi 2 and 3 remain compelling and versatile home media-player platforms, capable of smooth Full HD playback of H.264 and even HEVC/H.265 content.
+
+However, newer Kodi releases dropped support for the legacy Raspberry Pi video acceleration stack, substantially reducing HEVC playback performance on Raspberry Pi 3 and earlier models. As a result, the smooth Full HD HEVC playback achieved with older Kodi and LibreELEC releases is no longer available on many older Pi devices.
+
+Subtitle search and download are essential Kodi features for many users. Since I could not find a SubDL add-on compatible with Kodi 18.9, I decided to create one.
+
+## Features
+
+- Search subtitles from Kodi's on-screen subtitle dialog.
+- Searches use the video's filename, preferred languages, and season/episode numbers when available.
+- Browse up to 100 results from SubDL.
+- Download `.srt` files directly or extract `.srt` files from `.zip` results.
+- Save subtitles to a configured folder or, when no folder is set, alongside the video when possible.
+
+## Installation
+
+1. Copy `service.subsearch.zip` to a location accessible from Kodi, such as a USB drive or network share.
+2. Ensure the ZIP file contains the `service.subsearch` add-on folder, including `addon.xml` and the other add-on files.
+3. In Kodi, enable **Unknown sources** under **Settings → System → Add-ons** if required.
+4. Open **Add-ons → Install from zip file**, browse to the ZIP file, and select it.
+5. Configure the add-on's API key and preferred languages in the add-on settings.
+
+## Usage
+
+During video playback, open Kodi's subtitle dialog, select **Download**, and choose a subtitle from the results. 
+
+In some cases, multiple subtitle files may be downloaded from a single result. This behavior is intentional, as subtitle packages may contain multiple versions of the same subtitle or subtitles for an entire season. Use the Browse option in the subtitle dialog to select the file you want to use.
+
+For manual subtitle searches and downloads, use the command-line interface, which is also accessible over SSH.
+
+---
+
+JCA (2026)
