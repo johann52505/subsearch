@@ -28,6 +28,7 @@
 ```text
 service.subsearch/addon.xml
 service.subsearch/default.py
+service.subsearch/sub_icon.png
 service.subsearch/resources/settings.xml
 
 ---
