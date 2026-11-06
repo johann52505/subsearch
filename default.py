@@ -1,13 +1,6 @@
 ﻿# -*- coding: utf-8 -*-
-"""SubDL subtitle provider for Kodi 18+ compatible with local CLI testing.
-
-This implementation keeps the Kodi 18/Python 2 compatibility style while also
-working under Python 3 for local validation. It is designed to satisfy the
-project requirements around search, filtering, logging, config, download
-validation, and filesystem safety.
-
-Author: JCA, 2026, Rev: 1.00
-"""
+# SubDL subtitle provider for Kodi 18+ and LibreELEC
+# Author: JCA, 2026
 
 from __future__ import print_function
 

@@ -32,5 +32,4 @@ service.subsearch/sub_icon.png
 service.subsearch/resources/settings.xml
 
 ---
-
-JCA (2026) Rev. 1.00
+JCA (2026)
