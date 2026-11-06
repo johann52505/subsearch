@@ -34,4 +34,4 @@ In some cases, the downloaded file may be an archive with multiple subtitle file
 
 ---
 
-JCA (2026)
+JCA (2026) Rev. 1.00

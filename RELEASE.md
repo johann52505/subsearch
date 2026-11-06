@@ -29,3 +29,7 @@
 service.subsearch/addon.xml
 service.subsearch/default.py
 service.subsearch/resources/settings.xml
+
+---
+
+JCA (2026) Rev. 1.00

@@ -6,7 +6,7 @@ working under Python 3 for local validation. It is designed to satisfy the
 project requirements around search, filtering, logging, config, download
 validation, and filesystem safety.
 
-Author: JCA, 2026, Rev: 1.09
+Author: JCA, 2026, Rev: 1.00
 """
 
 from __future__ import print_function
