@@ -30,9 +30,7 @@ Subtitle search and download are essential Kodi features for many users. Since I
 
 During video playback, open Kodi's subtitle dialog, select **Download**, and choose a subtitle from the results. 
 
-In some cases, multiple subtitle files may be downloaded from a single result. This behavior is intentional, as subtitle packages may contain multiple versions of the same subtitle or subtitles for an entire season. Use the Browse option in the subtitle dialog to select the file you want to use.
-
-For manual subtitle searches and downloads, use the command-line interface, which is also accessible over SSH.
+In some cases, the downloaded file may be an archive with multiple subtitle files. This behavior is intentional, as subtitle packages may contain different versions for the same title or subtitles for multiple episodes in a season. To see what files you got, select the **Browse** option in the subtitle dialog to choose the subtitle file you want to use.
 
 ---
 
