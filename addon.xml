@@ -8,5 +8,10 @@
     <summary lang="en_GB">SubDL Subtitle Service</summary>
     <description lang="en_GB">Searches and downloads subtitles from SubDL. Compatible with Kodi 18 (Leia).</description>
     <platform>all</platform>
+
+    <assets>
+      <icon>sub_icon.png</icon>
+    </assets>
+
   </extension>
 </addon>
