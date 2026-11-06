@@ -1,0 +1,7 @@
+.gitignore export-ignore
+.gitattributes export-ignore
+.github/ export-ignore
+.vscode/ export-ignore
+/notes/ export-ignore
+RELEASE.md export-ignore
+*.zip export-ignore
