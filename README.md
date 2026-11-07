@@ -20,11 +20,12 @@ Subtitle search and download are essential Kodi features for many users. Since I
 
 ## Installation
 
-1. Copy `service.subsearch.zip` to a location accessible from Kodi, such as a USB drive or network share.
-2. Ensure the ZIP file contains the `service.subsearch` add-on folder, including `addon.xml` and the other add-on files.
-3. In Kodi, enable **Unknown sources** under **Settings → System → Add-ons** if required.
-4. Open **Add-ons → Install from zip file**, browse to the ZIP file, and select it.
-5. Configure the add-on's API key and preferred languages in the add-on settings.
+1. Download service.subsearch.zip from Releases on the right side of this page.
+2. Copy `service.subsearch.zip` to a location accessible from Kodi, such as a USB drive or network share.
+3. Ensure the ZIP file contains the `service.subsearch` add-on folder, including `addon.xml` and the other add-on files.
+4. In Kodi, enable **Unknown sources** under **Settings → System → Add-ons** if required.
+5. Open **Add-ons → Install from zip file**, browse to the ZIP file, and select it.
+6. Configure the add-on's API key and preferred languages in the add-on settings.
 
 ## Usage
 
